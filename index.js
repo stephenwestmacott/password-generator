@@ -28,3 +28,13 @@ function generatePasswords() {
     passElOne.textContent = passOne
     passElTwo.textContent = passTwo
 }
+
+function copyPasswordOne() {
+    navigator.clipboard.writeText(passOne)
+    alert("Password copied to clipboard")
+}
+
+function copyPasswordTwo() {
+    navigator.clipboard.writeText(passTwo)
+    alert("Password copied to clipboard")
+}
