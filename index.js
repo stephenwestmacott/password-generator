@@ -31,10 +31,10 @@ function generatePasswords() {
 
 function copyPasswordOne() {
     navigator.clipboard.writeText(passOne)
-    alert("Password copied to clipboard")
+    //alert("Password copied to clipboard")
 }
 
 function copyPasswordTwo() {
     navigator.clipboard.writeText(passTwo)
-    alert("Password copied to clipboard")
+    //alert("Password copied to clipboard")
 }
